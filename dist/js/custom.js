@@ -1,0 +1,1 @@
+$("#reviews-slider").length&&$("#reviews-slider").slick({prevArrow:'<div class="slick-prev slick-arrow"></div>',nextArrow:'<div class="slick-next slick-arrow"></div>',dots:!0,infinite:!0,speed:1500,slidesToShow:1,slidesToScroll:1,autoplay:!0});
