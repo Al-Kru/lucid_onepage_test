@@ -17,22 +17,32 @@
 </head>
 
 <body>
-
+<a href="#" class="go-top" id="go-top" title="Вверх">Go Top</a>
 <!-- HEADER -->
-<header class="header">
+<header class="header" id="a">
 	<!-- HEADER TOP -->
 	<div class="header-top">
-		<div class="container clear">
+		<div class="container clearfix">
 			<div class="logo">
 				<img src="img/logo.png" alt="" class="header-logo">
 			</div>
-			<ul class="nav">
-				<li class="nav-item"><a class="nav-item__link" href="">Home</a></li>
-				<li class="nav-item"><a class="nav-item__link" href="">Features</a></li>
-				<li class="nav-item"><a class="nav-item__link" href="">About</a></li>
-				<li class="nav-item"><a class="nav-item__link" href="">Testimonials</a></li>
-				<li class="nav-item"><a class="nav-item__link" href="">Pricing</a></li>
-				<li class="nav-item"><a class="nav-item__link" href="">Contact</a></li>
+			<!-- MOBILE-MENU -->
+			<div class="mobile-menu clearfix">
+				<div class="mobile-menu__btn">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</div>
+				<!-- END MOBILE-MENU -->
+				
+			</div>
+			<ul class="nav" id="menu">
+				<li class="nav-item"><a class="nav-item__link" href="#Home">Home</a></li>
+				<li class="nav-item"><a class="nav-item__link" href="#Features">Features</a></li>
+				<li class="nav-item"><a class="nav-item__link" href="#About">About</a></li>
+				<li class="nav-item"><a class="nav-item__link" href="#Testimonials">Testimonials</a></li>
+				<li class="nav-item"><a class="nav-item__link" href="#Pricing">Pricing</a></li>
+				<li class="nav-item"><a class="nav-item__link" href="#Contact">Contact</a></li>
 			</ul>
 		</div>	
 	</div>
@@ -44,7 +54,7 @@
 				<p class="header-theme">introducing lucid theme</p>
 				<p class="header-theme__title">Carefully crafted and beautiful landing page.</p>
 				<p class="header-theme__txt">Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
-				<div class="header__btn-block">
+				<div class="header__btn-block" id="header__btn-block">
 					<div class="download">
 						<a href="" class="download-link">download now</a>
 					</div>
@@ -63,107 +73,107 @@
 <!-- END HEADER -->
 
 
-<!-- PAGE PRODUCT-OVERVIEW -->
-<section class="overview">
+<!-- PAGE FEATURES -->
+<section class="features" id="Features">
 	<div class="container">
-		<!--  OVERVIEW TOP -->	
-		<div class="overview-top">
-			<p class="overview-theme header-theme">product overview</p>
-			<p class="overview-theme__title">List of amazing features</p>
+		<!--  FEATURES TOP -->	
+		<div class="features-top">
+			<p class="features-theme header-theme">product overview</p>
+			<p class="features-theme__title">List of amazing features</p>
 			<div class="double-line"></div>
 		</div>
-		<!--  OVERVIEW BOTTOM -->	
-		<div class="overview-bottom clearfix">
-			<div class="overview-item monitor">
-				<div class="overview-item__block">
-					<img src="img/Monitor.png" alt="" class="overview-img">
+		<!--  FEATURES BOTTOM -->	
+		<div class="features-bottom clearfix">
+			<div class="features-item monitor">
+				<div class="features-item__block">
+					<img src="img/Monitor.png" alt="" class="features-img">
 				</div>
-				<p class="overview-item__title">Responsive</p>
-				<p class="overview-item__txt">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+				<p class="features-item__title">Responsive</p>
+				<p class="features-item__txt">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
 			</div>
-			<div class="overview-item settings">
-				<div class="overview-item__block">
-					<img src="img/Settings.png" alt="" class="overview-img">
+			<div class="features-item settings">
+				<div class="features-item__block">
+					<img src="img/Settings.png" alt="" class="features-img">
 				</div>
-				<p class="overview-item__title">Customizable</p>
-				<p class="overview-item__txt">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+				<p class="features-item__title">Customizable</p>
+				<p class="features-item__txt">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
 			</div>
-			<div class="overview-item like">
-				<div class="overview-item__block">
-					<img src="img/Like.png" alt="" class="overview-img">
+			<div class="features-item like">
+				<div class="features-item__block">
+					<img src="img/Like.png" alt="" class="features-img">
 				</div>
-				<p class="overview-item__title">Lovely design</p>
-				<p class="overview-item__txt">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+				<p class="features-item__title">Lovely design</p>
+				<p class="features-item__txt">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
 			</div>
-			<div class="overview-item phone">
-				<div class="overview-item__block">
-					<img src="img/Phone.png" alt="" class="overview-img">
+			<div class="features-item phone">
+				<div class="features-item__block">
+					<img src="img/Phone.png" alt="" class="features-img">
 				</div>
-				<p class="overview-item__title">Mobile Friendly</p>
-				<p class="overview-item__txt">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+				<p class="features-item__title">Mobile Friendly</p>
+				<p class="features-item__txt">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- END PAGE PRODUCT-OVERVIEW -->
+<!-- END PAGE FEATURES -->
 
 
-<!-- PAGE DETAILS SECTION 1 -->
-<section class="details">
+<!-- PAGE ABOUT SECTION 1 -->
+<section class="about" id="About">
+	<div class="container clearfix" id="container-about">
+		<!--  ABOUT LEFT -->	
+		<div class="about-left" id="about-left">
+			<img src="img/devices.png" alt="" class="about-left__img">
+		</div>
+		<!--  ABOUT RIGHT -->	
+		<div class="about-right" id="about-right">
+			<p class="about-theme header-theme">dip into the details</p>
+			<p class="about-theme__title">Beautiful on every device</p>
+			<div class="double-line about__double-line"></div>
+			<p class="about-theme__txt">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
+			<p class="about-items"><span class="about-img cup"></span>Awesome design</p>
+			<p class="about-items"><span class="about-img mouse"></span>Fully responsive</p>
+			<p class="about-items"><span class="about-img energy"></span>Retina ready</p>
+			<p class="about-items"><span class="about-img speedometer"></span>Tons of features and easy to use</p>
+		</div>
+	</div>
+</section>
+<!-- END PAGE ABOUT SECTION 1 -->
+
+
+<!-- PAGE ABOUT SECTION 2 -->
+<section class="about-section-2">
 	<div class="container clearfix">
-		<!--  DETAILS LEFT -->	
-		<div class="details-left">
-			<img src="img/devices.png" alt="" class="details-left__img">
+		<!--  ABOUT LEFT -->	
+		<div class="about-sec2-left">
+			<p class="about-theme header-theme">dip into the details</p>
+			<p class="about-theme__title">Super easy to customize</p>
+			<div class="double-line about__double-line"></div>
+			<p class="about-theme__txt">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
 		</div>
-		<!--  DETAILS RIGHT -->	
-		<div class="details-right">
-			<p class="details-theme header-theme">dip into the details</p>
-			<p class="details-theme__title">Beautiful on every device</p>
-			<div class="double-line details__double-line"></div>
-			<p class="details-theme__txt">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
-			<p class="details-items"><span class="details-img cup"></span>Awesome design</p>
-			<p class="details-items"><span class="details-img mouse"></span>Fully responsive</p>
-			<p class="details-items"><span class="details-img energy"></span>Retina ready</p>
-			<p class="details-items"><span class="details-img speedometer"></span>Tons of features and easy to use</p>
+		<!--  ABOUT RIGHT -->	
+		<div class="about-sec2-right">
+			<img src="img/iPhone-5.png" alt="" class="about-right__img">
 		</div>
 	</div>
 </section>
-<!-- END PAGE DETAILS SECTION 1 -->
+<!-- END PAGE ABOUT SECTION 2 -->
 
 
-<!-- PAGE DETAILS SECTION 2 -->
-<section class="datails section-2">
-	<div class="container clearfix">
-		<!--  DETAILS LEFT -->	
-		<div class="details-sec2-left">
-			<p class="details-theme header-theme">dip into the details</p>
-			<p class="details-theme__title">Super easy to customize</p>
-			<div class="double-line details__double-line"></div>
-			<p class="details-theme__txt">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-		</div>
-		<!--  DETAILS RIGHT -->	
-		<div class="details-sec2-right">
-			<img src="img/iPhone-5.png" alt="" class="details-right__img">
-		</div>
-	</div>
-</section>
-<!-- END PAGE DETAILS SECTION 2 -->
+<!-- PAGE TESTIMONIALS -->
+<section class="testimonials" id="Testimonials">
 
-
-<!-- PAGE REVIEWS -->
-<section class="reviews">
-
-	<!--  REVIEWS TOP -->
-	<div class="reviews-top">
+	<!--  TESTIMONIALS TOP -->
+	<div class="testimonials-top">
 		<div class="container ">
-			<div class="reviews-slider" id="reviews-slider">
-				<div class="reviews-slider__item">
-					<div class="reviews-slider-top">
-						<p class="reviews-theme header-theme">quality has its price</p>
-						<p class="reviews-theme__title">Pricings & Plans</p>
-						<div class="reviews-dln double-line"></div>
+			<div class="testimonials-slider" id="testimonials-slider">
+				<div class="testimonials-slider__item">
+					<div class="testimonials-slider-top">
+						<p class="testimonials-theme header-theme">quality has its price</p>
+						<p class="testimonials-theme__title">Pricings & Plans</p>
+						<div class="testimonials-dln double-line"></div>
 					</div>
-					<div class="reviews-slider-bottom clearfix">
+					<div class="testimonials-slider-bottom clearfix">
 						<div class="slider-left">
 							<p class="slider-txt">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
 							<div class="slider-txt__signature">
@@ -182,13 +192,13 @@
 						</div>
 					</div>
 				</div>  <!-- /slider-item -->
-				<div class="reviews-slider__item">
-					<div class="reviews-slider-top">
-						<p class="reviews-theme header-theme">quality has its price</p>
-						<p class="reviews-theme__title">Pricings & Plans</p>
-						<div class="reviews-dln double-line"></div>
+				<div class="testimonials-slider__item">
+					<div class="testimonials-slider-top">
+						<p class="testimonials-theme header-theme">quality has its price</p>
+						<p class="testimonials-theme__title">Pricings & Plans</p>
+						<div class="testimonials-dln double-line"></div>
 					</div>
-					<div class="reviews-slider-bottom clearfix">
+					<div class="testimonials-slider-bottom clearfix">
 						<div class="slider-left">
 							<p class="slider-txt">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
 							<div class="slider-txt__signature">
@@ -207,13 +217,13 @@
 						</div>
 					</div>
 				</div>  <!-- /slider-item -->
-				<div class="reviews-slider__item">
-					<div class="reviews-slider-top">
-						<p class="reviews-theme header-theme">quality has its price</p>
-						<p class="reviews-theme__title">Pricings & Plans</p>
-						<div class="reviews-dln double-line"></div>
+				<div class="testimonials-slider__item">
+					<div class="testimonials-slider-top">
+						<p class="testimonials-theme header-theme">quality has its price</p>
+						<p class="testimonials-theme__title">Pricings & Plans</p>
+						<div class="testimonials-dln double-line"></div>
 					</div>
-					<div class="reviews-slider-bottom clearfix">
+					<div class="testimonials-slider-bottom clearfix">
 						<div class="slider-left">
 							<p class="slider-txt">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
 							<div class="slider-txt__signature">
@@ -232,13 +242,13 @@
 						</div>
 					</div>
 				</div>  <!-- /slider-item -->
-				<div class="reviews-slider__item">
-					<div class="reviews-slider-top">
-						<p class="reviews-theme header-theme">quality has its price</p>
-						<p class="reviews-theme__title">Pricings & Plans</p>
-						<div class="reviews-dln double-line"></div>
+				<div class="testimonials-slider__item">
+					<div class="testimonials-slider-top">
+						<p class="testimonials-theme header-theme">quality has its price</p>
+						<p class="testimonials-theme__title">Pricings & Plans</p>
+						<div class="testimonials-dln double-line"></div>
 					</div>
-					<div class="reviews-slider-bottom clearfix">
+					<div class="testimonials-slider-bottom clearfix">
 						<div class="slider-left">
 							<p class="slider-txt">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
 							<div class="slider-txt__signature">
@@ -260,26 +270,26 @@
 			</div> <!-- /review-slider -->
 		</div>
 	</div>
-	<!--  REVIEWS BOTTOM -->
-	<div class="reviews-bottom clearfix">
+	<!--  TESTIMONIALS BOTTOM -->
+	<div class="testimonials-bottom clearfix">
 		<div class="container">
-			<p class="reviews-bottom__txt">Like what you see? <span class="reviews-bottom__txt2">Get this great theme now!</span></p>
-			<div class="reviews__btn-block">
+			<p class="testimonials-bottom__txt">Like what you see? <span class="testimonials-bottom__txt2">Get this great theme now!</span></p>
+			<div class="testimonials__btn-block">
 				<div class="view btn-rev-view">
-					<a href="" class="view-link reviews-view">view features</a>
+					<a href="" class="view-link testimonials-view">view features</a>
 				</div>
 				<div class="download btn-rev-download">
-					<a href="" class="download-link reviews-download">download now</a>
+					<a href="" class="download-link testimonials-download">download now</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- END PAGE REVIEWS -->
+<!-- END PAGE TESTIMONIALS -->
 
 	
 <!-- PAGE OFFERS -->
-<section class="offers">
+<section class="offers" id="Pricing">
 	<div class="container">
 		<!-- PAGE OFFERS-TOP -->
 		<div class="offers-top">
@@ -340,7 +350,7 @@
 
 		
 <!-- PAGE CONTACT -->
-<section class="contact">
+<section class="contact" id="Contact">
 	<div class="container">
 		<!-- PAGE CONTACT-TOP -->
 		<div class="contact-top">
@@ -349,7 +359,7 @@
 			<div class="contact-dbln double-line"></div>
 		</div>
 		<!-- PAGE CONTACT-BOTTOM -->
-		<div class="contact-bottom clearfix">
+		<div class="contact-bottom clearfixfix">
 			<div class="contact-item">
 				<div class="contact-img"></div>
 				<p class="txt">Phone: (415) 124-5678</p>
@@ -365,7 +375,7 @@
 				<div class="contact-img envelope"></div>
 				<p class="txt">support@yourname.com</p>
 			</div>
-			<div class="contact-form clearfix">
+			<div class="contact-form clearfixfix">
 				<form action="">
 					<div class="contact-form-left">
 						<input class="contact-name" type="text" id="" name="name" placeholder="name *">
@@ -386,7 +396,7 @@
 <!-- PAGE MAP -->
 <section class="contacts-map">
 	<div class="map" id="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.2104676418267!2d-80.19130798569456!3d25.7636108836359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6823bcf83f7%3A0xef0b288e10bb269c!2zMTAwMSBCcmlja2VsbCBCYXkgRHIgIzE5MDAsIE1pYW1pLCBGTCAzMzEzMSwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!5e0!3m2!1suk!2sua!4v1519055247048" width="100%" height="372px" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<iframe id="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.2104676418267!2d-80.19130798569456!3d25.7636108836359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6823bcf83f7%3A0xef0b288e10bb269c!2zMTAwMSBCcmlja2VsbCBCYXkgRHIgIzE5MDAsIE1pYW1pLCBGTCAzMzEzMSwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!5e0!3m2!1suk!2sua!4v1519055247048" width="100%" height="372px" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>	
 </section>
 <!-- END PAGE MAP -->
